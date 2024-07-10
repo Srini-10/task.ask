@@ -1,0 +1,26 @@
+@media (max-width: 640px) {
+  .Error_Page {
+    margin-top: 150px;
+  }
+  #error-page-title {
+    font-size: 30px;
+  }
+  #error-page-description {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Error_Page {
+    margin-top: 180px;
+  }
+  .Error_Page_Contents {
+    margin-top: 200px;
+  }
+  #error-page-title {
+    font-size: 40px;
+  }
+  #error-page-description {
+    font-size: 15px;
+  }
+}

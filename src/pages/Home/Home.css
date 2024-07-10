@@ -1,0 +1,29 @@
+/* Home.css */
+.home-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-container {
+  display: flex;
+  padding: 0px;
+}
+
+.grid {
+  padding: 0px;
+  margin-top: 10px;
+}
+
+.Containers {
+  border-radius: 4px;
+}
+
+.Text-Blue {
+  color: #238be6;
+}
+.Text-Gray {
+  color: rgb(80, 80, 80);
+}
+.Text-Black {
+  color: black;
+}

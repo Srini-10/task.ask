@@ -1,0 +1,68 @@
+.reason-enter {
+  max-height: 0;
+  opacity: 0;
+  transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+}
+.reason-enter-active {
+  max-height: 100px;
+  opacity: 1;
+}
+.reason-exit {
+  max-height: 100px;
+  opacity: 1;
+  transition: max-height 0.3s ease-in, opacity 0.3s ease-in;
+}
+.reason-exit-active {
+  max-height: 0;
+  opacity: 0;
+}
+
+/* Add this CSS to your stylesheet or a CSS module */
+.ant-pagination-item-active {
+  background-color: #399fff !important; /* Change this to your desired color */
+  border-color: #e8f4ff !important;
+  color: white !important;
+}
+.ant-pagination-item-active a {
+  color: black !important; /* Change the text color to black */
+  font-weight: 400;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap");
+.montserrat-uniquifier {
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.montserrat-uniquifier2 {
+  margin-top: 5px;
+  line-height: 24px;
+  font-size: 15px;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-uniquifier3 {
+  font-size: 15px;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* Question.css */
+.explanation {
+  margin-top: 7px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 2s ease-out, opacity 0.3s ease-out;
+  opacity: 0;
+}
+
+.explanation.show {
+  max-height: 200px; /* You can adjust this value based on the expected content size */
+  opacity: 1;
+}
